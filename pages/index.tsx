@@ -1,15 +1,16 @@
 import type { NextPage } from 'next';
 import Header from '../components/Header';
-
+import Trending from '../components/Trending';
 const Home: NextPage = () => {
   return (
     <div className="min-h-screen">
-      { /* Header */ }
+      { /* Header */}
       <Header />
       <div className='mt-10'></div>
-      { /* Trending */ }
+      { /* Trending */}
+      <Trending />
       <div className='mt-10'></div>
-      { /* CMCtable */ }
+      { /* CMCtable */}
     </div>
   )
 }
